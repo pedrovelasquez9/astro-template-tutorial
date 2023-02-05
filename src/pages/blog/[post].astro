@@ -1,0 +1,17 @@
+---
+import PostContent from "@components/astro/PostContent/PostContent.astro";
+import Layout from "../../layouts/Layout.astro";
+
+const { post } = Astro.params;
+
+const postTitle = "Mi primer post";
+const postText =
+  "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit nam vitae voluptate ipsa eos veniam, sapiente possimus, fugit animi ab minus? Voluptatum officiis deserunt mollitia beatae minus voluptas voluptates sit.";
+---
+
+<Layout title="Blog">
+  <main>
+    <h1>{post}</h1>
+    <PostContent title={postTitle} text={postText} />
+  </main>
+</Layout>
