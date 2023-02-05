@@ -1,54 +1,26 @@
-# Astro Starter Kit: Basics
+# [Astro template tutorial](https://programacion-es.dev)
 
-```
-npm create astro@latest -- --template basics
-```
+<div style="width:100%;display:flex;flex-direction:column;align-items:center">
+    <img src="./docs/assets/img/Logo-circle.webp" with="150px" height="150px" />
+    <h1>Programación en español</h1>
+</div>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/withastro/astro/tree/latest/examples/basics)
+### Proyecto creado en vídeo tutorial de introducción completa a Astro disponible en el canal de YouTube de "Programación en español"
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## ¿Cómo probar en entorno local?
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+- Clona el repositorio
+- Instala las dependencias ejecutando **npm i**
+- Prueba el proyecto ejecutando **npm run dev**
 
+## Únete a la comunidad
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+<div style="width:100%;display:flex;flex-direction:row;justify-content:center">
+    <a href="https://discord.gg/programacion-es"><img src="./docs/assets/img/discord-icon.webp" with="50px" height="50px" /></a>
+    <a href="https://www.youtube.com/@programacion-es"><img src="./docs/assets/img/youtube-icon.webp" with="50px" height="50px" /></a>
+    <a href="https://www.twitch.tv/programacion_en_esp"><img src="./docs/assets/img/twitch-logo-borderless.webp" with="50px" height="50px" /></a>
+    <a href="https://instagram.com/programacion.es/"><img src="./docs/assets/img/instagram-icon.webp" with="50px" height="50px" /></a>
+    <a href="https://twitter.com/program_es"><img src="./docs/assets/img/twitter-icon.webp" with="50px" height="50px" /></a>
+    <a href="https://www.tiktok.com/@programacion.es"><img src="./docs/assets/img/tiktok-icon.webp" with="50px" height="50px" /></a>
+    <a href="https://www.linkedin.com/in/pedroplasencia/"><img src="./docs/assets/img/linkedin-icon.webp" with="50px" height="50px" /></a>
+</div>
